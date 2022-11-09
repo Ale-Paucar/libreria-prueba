@@ -1,0 +1,1452 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+/*athelas*/
+@font-face {
+    font-family: 'Athelas Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Regular'), url('../fonts/athelas/Athelas-Regular.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Athelas Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Italic'), url('../fonts/athelas/Athelas-Italic.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Athelas Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Bold'), url('../fonts/athelas/Athelas-Bold.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Athelas Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Bold Italic'), url('../fonts/athelas/Athelas-BoldItalic.woff') format('woff');
+}
+
+/* helvetica */
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica'), url('../fonts/helvetica/Helvetica.woff') format('woff');
+}
+
+/* myriad pro */
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('../fonts/myriad-pro/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Myriad Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Light'), url('../fonts/myriad-pro/MyriadPro-Light.woff') format('woff');
+}
+/*vani*/
+@font-face {
+    font-family: 'vaniregular';
+    src: url('../fonts/vani/vani-webfont.woff2') format('woff2'),
+        url('../fonts/vani/vani-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vanibold';
+    src: url('../fonts/vani/vanib-webfont.woff2') format('woff2'),
+        url('../fonts/vani/vanib-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    max-width: 1805px;
+}
+
+
+
+/* */
+/* */ 
+/* */
+/* Encabezado */
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+}
+.cabecera{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.cabecera h2{
+    font-family:'Myriad Pro Light';
+    color: #d7794a;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+
+/* Fin de Encabezado */
+/* */
+/* */ 
+/* */
+/* Barra de navegación */
+
+.uno{
+    width: 100%;
+    height: 80px;
+    background-color: #898d8e;
+}
+
+.navegacion{
+    width: 100%;
+    height: 100%;
+    max-width: 1805px;
+}
+
+.navegacion1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.navegacion1 a{
+    font-family: 'Myriad Pro Light';
+    text-decoration: none;
+    font-size: 20px;
+    color: #fcf9f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    max-height: 80px;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+
+.navegacion1 a:hover{
+    color:black;
+    background-color: rgba(0, 179, 240, 0.09);
+}
+
+/* Fin de Barra de navegación */
+/* */
+/* */ 
+/* */
+/* Banner de bienvenidos */
+.dos{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/portada.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.dos > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 61, 76, 0.3);
+}
+
+.dos1{
+    width: 100%;
+    height: 100%;
+    max-width: 1805px;
+}
+
+.dos1 h1{
+    color: #fcf9f7;
+    font-size: 7.2rem;
+    font-family: 'Athelas Regular';
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 25%;
+    
+}
+
+.dos1 h1 span{
+    color: #d7794a;
+    font-size: 4.8rem;
+}
+/* Fin de Banner de bienvenidos */
+/* */
+/* */ 
+/* */
+/* Nuestro equipo líder */
+.tres{
+    width: 100%;
+    height: 1580px;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.tres1{
+    width: 100%;
+    max-width: 1150px;
+    height: 100%;
+    max-height: 285px;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/*tres 1 interior*/
+
+.tres1 h2{
+    font-family: 'Athleas Regular';
+    color: #a95e39;
+    font-size: 6.111rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tres1 hr{
+    font-size: 1.6rem;
+    height: 1px;
+    background-color: #88543a;
+    border: 0;
+    width: 43.17%;
+    max-width: 880px;
+}
+
+.tres1 p{
+    font-family: 'Helvetica';
+    color: #000000;
+    font-size: 3.056rem;
+    text-align: center;
+}
+/*fin tres 1 interior*/
+.tres2{
+    width: 100%;
+    max-width: 1544px;
+    height: 1000%;
+    max-height: 777px;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/* tre2 interior */
+
+.caja1{
+    width: 100%;
+    max-width: 448px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#avatar01{
+    width: 100%;
+    max-width: 448px;
+    height: 570px;
+    background-image: url(../img/avatar-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#avatar01 > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 24, 34, 0.3);
+}
+
+.caja1 h4{
+    font-family: 'Helvetica';
+    font-size: 3.056rem;
+    color: black;
+}
+
+.caja1 p{
+    font-family: 'Helvetica';
+    font-size: 2.037rem;
+    color: black;
+    text-align: center;
+    width: 100%;
+    max-width: 370px;
+}
+
+#avatar02{
+    width: 100%;
+    max-width: 448px;
+    height: 570px;
+    background-image: url(../img/avatar-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#avatar02 > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 24, 34, 0.3);
+}
+#avatar03{
+    width: 100%;
+    max-width: 448px;
+    height: 570px;
+    background-image: url(../img/avatar-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#avatar03 > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 24, 34, 0.3);
+}
+
+/* Fin de  Nuestro equipo líder */
+/* */
+/* */ 
+/* */
+/* Datos estadísticos */
+
+.cuatro{
+    width: 100%;
+    height: 340px;
+    background-color: #1f3138 ;
+}
+
+.cuatro > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 55, 70, 0.682); 
+}
+
+.cuatro1{
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja2{
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.caja2 h3{
+    font-family: 'vanibold';
+    font-size: 7.673rem;
+    color: #995437;
+    text-align: center;
+}
+
+.caja2 p{
+    font-family: 'Myriad Pro Regular';
+    font-size: 2.582rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* Fin de  Datos estadísticos*/
+/* */
+/* */ 
+/* */
+/* Banner imagen */
+
+.cinco{
+    height: 1125px;
+    width: 100%;
+    background-image: url(../img/libros.jpg);
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.cinco1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(16, 61, 76, 0.3);
+}
+/* Fin de Banner imagen*/
+/* */
+/* */ 
+/* */
+/* Formulario de contacto */
+.seis{
+    width: 100%;
+    height: 1335px;
+    background-color: #1a3d4d;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seis1{
+    width: 100%;
+    max-width: 780px;
+    height: 100%;
+    max-height: 200px;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;    
+}
+/* seis1 interior */
+.seis1 h2{
+    font-family: 'Athelas-Regular';
+    font-size: 6.626rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.seis1 p{
+    font-family: 'Quattrocento Sans';
+    font-size: 2.761rem;
+    color: #c0c0c0;
+    text-align: center;
+}
+/* Fin seis1 interior */
+
+.seis2{
+    width: 100%;
+    max-width: 1148px;
+    height: 100%;
+    max-height: 685px;
+    margin: 0;
+}
+
+/*seis2 interior */
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    width: 100%;
+    max-width: 1034px;
+    height: 100%;
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    border-width: 0px;
+}
+
+.formulario1{
+    width: 48%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 50px;
+
+}
+
+/**********sobre input, select area**********/
+
+input {
+    font-size: 2.209rem;
+    text-indent: 1.9rem;
+    font-family: 'Quattrocento Sans';
+    color: #8f8f8f;;
+    line-height: normal;
+    text-transform: none;
+    background-color: #1a3d4d;
+    padding: 0;
+    border-bottom-width: 2px;
+    border-top-style: none;
+    border-right-style:none;
+    border-left-style:none; 
+    border-bottom-style:solid;
+    border-color: #b5b6b7;
+}
+
+textarea{
+    font-size: 2.209rem;
+    text-indent: 1.9rem;
+    font-family: 'Quattrocento Sans';
+    color: #8f8f8f;;
+    line-height: normal;
+    text-transform: none;
+    background-color: #1a3d4d;
+    padding: 0;
+    border-bottom-width: 2px;
+    border-top-style: none;
+    border-right-style:none;
+    border-left-style:none; 
+    border-bottom-style:solid;
+    border-color: #b5b6b7;
+}
+
+select {
+    font-size: 2.209rem;
+    text-indent: 1.9rem;
+    font-family: 'Quattrocento Sans';
+    color: #8f8f8f;;
+    line-height: normal;
+    text-transform: none;
+    background-color: #1a3d4d;
+    padding: 0;
+    border-bottom-width: 2px;
+    border-top-style: none;
+    border-right-style:none;
+    border-left-style:none; 
+    border-bottom-style:solid;
+    border-color: #b5b6b7;
+}
+input:focus-visible {
+    outline: inherit;
+}
+textarea:focus-visible {
+    outline: inherit;
+}
+select:focus-visible{
+    outline: inherit;
+}
+
+/**********sobre input, select y textarea**********/
+#email{
+    width: 98%;
+    max-width: 1034px;
+    height: 100%;
+    max-height: 55px;
+}
+
+#comentario{
+    width: 98%;
+    max-width: 1034px;
+    height: 100%;
+    max-height: 190px;
+}
+
+#submit1{
+    width: 100%;
+    max-width: 241px;
+    height: 100%;
+    max-height: 73px;
+    
+    font-size: 2.209rem;
+    text-indent: 0;
+    font-family: 'Myriad Pro Regular';
+    background-color: #89553b;
+    color: #ffffff;;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #623621;
+    border-image: initial;
+
+    
+    
+}
+
+::placeholder{
+    font-family: 'Quattrocento Sans';
+    color: #8f8f8f;
+    font-size: 2.209rem;
+    text-indent: 1.9rem;
+}
+
+/* Fin de formulario de contacto*/
+/* */
+/* */ 
+/* */
+/* Sobre nosotros */
+.siete{
+    width: 100%;
+    max-width: 1800px;
+    height: 867px;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.siete1{
+    width: 100%;
+    max-width: 910px;
+    height: 100%;
+    max-height: 600px;
+    margin: 0;
+    background-image: url(../img/foto-siete1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.siete1 > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 58, 71, 0.53)
+}
+
+.siete2{
+    width: 100%;
+    max-width: 845px;
+    height: 100%;
+    max-height: 525px;
+    margin: 0;
+    background-color: #f9f9fb;
+    border-style: solid;
+    border-color: #d2d3d7;
+    border-width: 2px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*** siete2  interior***/
+
+.about-us{
+    width: 100%;
+    max-width: 560px;
+    height: 100%;
+    max-height: 130px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us h3{
+    font-family:'Athelas-Regular' ;
+    font-size: 4.8rem;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.about-us p{
+    font-family: 'Quattrocento Sans';
+    font-size: 2rem;
+    color: #3d3d3d;
+    text-align: center;
+}
+
+.img-mini{
+    height: 100%;
+    max-height: 230px;
+    width: 100%;
+    max-width: 770px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.cajita{
+    width: 100%; 
+    max-width: 252px;
+    height: 100%;
+    max-height: 230px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja-circular{
+    width: 139px;
+    height: 139px;
+    border-radius: 2px;
+}
+
+.c1{
+    background-image: url(../img/portada-vientos-de-invierno.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.c2{
+    background-image: url(../img/ray-bradbury.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.c3{
+    background-image: url(../img/ray-loriga.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cajita h5{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 225px;
+    height: 100%;
+    max-height: 59px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #323648;
+    
+    font-family: 'Myriad Pro Light';
+    font-size: 2.4rem;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* Fin de Sobre nosotros*/
+/* */
+/* */ 
+/* */
+/* Banner final */
+.ocho{
+    width: 100%;
+    height: 296px;
+    background-color: #1b2c33;
+}
+
+.ocho1{
+    width: 100%;
+    max-width: 1721px;
+    height: 100%;
+    max-height: 296px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-between 
+}
+
+.caja4{
+    height: 170px;
+    width: 20%;
+    max-width: 300px;
+    min-width: 170px;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.caja4 h6{
+    font-family: 'Myriad Pro Light';
+    font-size: 2.396rem;
+    color: #d2d3d7;
+    text-transform: uppercase;
+}
+
+.caja4 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 3rem;
+}
+#caja4-1 ul{
+    padding: 0;
+    padding-top: 0;
+}
+.caja4 ul li{
+    line-height: 2.4em;
+}
+
+.caja4 ul li a{
+    font-family: 'Myriad Pro Light';
+    font-size: 2.396rem;
+    color: #d2d3d7;
+    text-decoration: none;
+}
+.caja4 ul li{
+    font-family: 'Myriad Pro Light';
+    font-size: 1.6rem;
+    color: #d2d3d7;
+    text-decoration: none;
+}
+/* Fin de  Banner final*/
+/* */
+/* */ 
+/* */
+/* Pie de página */
+footer{
+    width: 100%;
+    height: 91px;
+    background-color: #000000;
+}
+
+.final{
+    width: 100%;
+    max-width: 1703px;
+    height: 100%;
+}
+.final p{
+    display: flex;
+    height: 100%;
+    flex-flow: row;
+    align-items: center ;
+
+    font-family: 'Myriad Pro Light';
+    font-size: 2.4rem;
+    text-indent: 3.5rem;
+    color: #cdcbcb;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/************ Media Queries**************/
+
+/* Media en encabezado --> No se necesita*/
+
+/* Media de barras de navegación */
+@media all and (max-width: 845px){
+    .uno{
+        height: 160px;
+    }
+    .navegacion{
+        max-width: 820px;
+    }
+    
+}
+@media all and (max-width: 665px){
+    .navegacion1{
+        justify-content: center;
+    }
+}
+@media all and (max-width: 473px){
+    .uno{
+        height: 240px;
+    }
+}
+@media all and (max-width: 354px){
+    .uno{
+        height: 320px;
+    }
+}   
+@media all and (max-width: 313px){
+    .uno{
+        height: 400px;
+    }
+}
+@media all and (max-width: 187px){
+    .navegacion1{
+        flex-flow: column nowrap;
+        justify-content: center ; 
+    }
+    .uno{
+        height: 480px;
+    }
+}
+
+/* Fin de Media de barras de navegación */
+/* Media en Banner de Bienvenidos */
+@media all and (max-width: 618px){
+    .dos1 h1{
+        font-size: 7.2rem;
+        text-align: center;
+        padding-top: 25%;
+    }
+}
+
+@media all and (max-width: 563px){
+    .dos1 h1{
+        font-size: 6.8rem;
+        
+    }
+
+    .dos1 h1 span{
+        font-size: 4.4rem;
+    }
+}
+
+@media all and (max-width: 533px){
+    .dos1 h1{
+        font-size: 6.4rem;
+        
+    }
+
+    .dos1 h1 span{
+        font-size: 4rem;
+    }
+}
+
+@media all and (max-width: 502px){
+    .dos1 h1{
+        font-size: 200%;
+    }
+
+    .dos1 h1 span{
+        font-size: 180%;
+    }
+}
+/* Fin de Media en Banner de Bienvenidos */
+
+/* Media en Equipo líder */
+@media all and (max-width: 1361px){
+    .tres{
+        height: 2250px;
+        justify-content: flex-start;
+    }
+    
+    .tres1{
+        margin-top: 16rem;
+    }
+    
+    /*tres 1 interior*/
+    .tres1 p{
+        font-size: 3.056rem;
+    }
+    /*fin tres 1 interior*/
+    
+    /* tres2 interior */
+    
+    .caja1{
+        width: 33%;
+        margin-top: 8rem;
+        max-width: 448px;
+        height: 100%;
+    }
+    #avatar01{
+        width: 100%;
+    }
+    #avatar02{
+        width: 100%;
+    }
+    
+    #avatar03{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 897px){
+    .tres{
+        height: 2750px;
+        justify-content: flex-start;
+    }
+    
+    .tres1{
+        margin-top: 10rem;
+    }
+
+    .tres2{
+        flex-flow: column nowrap;
+        justify-content: center;
+        max-height: none;
+    }
+
+    /*tres 1 interior*/
+    .tres1 h2{
+        font-size: 5.111rem;
+    }
+    
+    .tres1 hr{
+        font-size: 1.6rem;
+        width: 43.17%;
+        max-width: none;
+    }
+    
+    .tres1 p{
+        font-size: 2.556rem;
+    }
+    
+    /*fin tres 1 interior*/
+    
+    /* tres2 interior */
+    
+    .caja1{
+        width: 100%;
+        max-width: 448px;
+        margin-top: 4.5rem;
+        
+        max-height: 700px;
+    }
+    
+    #avatar01{
+        min-width: none;
+        max-width: none;
+    }
+    
+    .caja1 h4{
+        font-size: 3.056rem;
+    }
+    
+    .caja1 p{
+        font-size: 2.037rem;
+    }
+    
+    #avatar02{
+        max-width: none;
+    }
+    
+    #avatar03{
+        max-width: none;
+    }
+}
+
+@media all and (max-width: 741px){
+    .tres{
+        height: 2750px;
+    }
+
+    .tres1 h2{
+        font-size: 4.111rem;
+    }
+    
+    .tres1 hr{
+        font-size: 1.6rem;
+        width: 80%;
+        max-width: none;
+    }
+    
+    .tres1 p{
+        font-size: 1.9rem;
+    }
+
+    .caja1 h4{
+        font-size: 2.8056rem;
+    }
+    
+    .caja1 p{
+        font-size: 1.837rem;
+    }
+
+    .caja1{
+        margin-top: 3rem;
+    }
+}
+
+@media all and (max-width: 368px){
+    .tres{
+        height: 2750px;
+    }
+
+    .tres1 h2{
+        font-size: 3.511rem;
+    }
+    
+    .tres1 hr{
+        font-size: 1.6rem;
+        width: 90%;
+    }
+    
+    .tres1 p{
+        font-size: 1.6rem;
+    }
+
+    #avatar01{
+        width: 80%;
+    }
+    #avatar02{
+        width: 80%;
+    }
+    #avatar03{
+        width: 80%;
+    }
+
+    
+    .caja1 h4{
+        font-size: 2.3056rem;
+    }
+    
+    .caja1 p{
+        font-size: 1.837rem;
+    }
+
+    .caja1{
+        margin-top: 1rem;
+
+    }
+}
+
+
+
+/* Fin de  Media en Equipo líder */
+
+/* Media en Datos estadísticos */
+
+@media all and (max-width: 673px){
+    .cuatro{
+        height: 600px;
+    }
+
+    .cuatro1{
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .caja2{
+        height: 100%;
+        max-height: 300px;
+    }
+}
+
+@media all and (max-width: 571px){
+    .cuatro1{
+        flex-flow: row wrap;
+        justify-content: space-around ;
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 375px){
+    .cuatro{
+        height: 900px;
+    }
+}
+
+@media all and (max-width: 316px){
+    .cuatro{
+        height: 1200px;
+    }
+}
+
+/* Fin de Media en Datos estadísticos */
+
+/* Banner imagen  */
+
+@media all and (max-width: 571px){
+    .cinco{
+        height: 1000px;
+    }
+}
+@media all and (max-width: 375px){
+    .cinco{
+        height: 900px;
+    }   
+}
+
+@media all and (max-width: 316px){
+    .cinco{
+        height: 800px;
+    }
+}
+
+/* Fin de Media de Banner imagen */
+
+/* Media de Formulario de contacto */
+
+@media all and (max-width:500px){
+    .seis{
+        height: 1235px;
+    }
+    
+    .seis1{
+        max-height: 250px;
+        justify-content: flex-start;
+    }
+    /* seis1 interior */
+    .seis1 h2{
+        font-size: 6.126rem;
+    }
+    
+    .seis p{
+        padding-top: 3rem;
+        font-size: 2.261rem;
+    }
+    /* Fin seis1 interior */
+
+    .seis2{
+        max-height: 700px; 
+        margin: 0;
+    }
+
+    .formulario1{
+        width: 96%;
+        max-width: 500px;
+        height: 100%;
+        max-height: 50px;
+    
+    }
+    /**********sobre input, select area**********/
+    input {
+        font-size: 2.009rem;
+    }
+    
+    textarea{
+        font-size: 2.009rem;
+    }
+    
+    select {
+        font-size: 2.009rem;
+    }
+    /**********sobre input, select y textarea**********/
+    #email{
+        width: 96%;
+    }
+    
+    #comentario{
+        width: 96%;
+        max-height: 200px;
+    }
+    
+    #submit1{
+        width: 100%;
+        max-width: 241px;
+        height: 100%;
+        max-height: 73px;
+        font-size: 2.009rem;
+        text-indent: 0;
+    }
+    
+    ::placeholder{
+        font-size: 2.009rem;
+    }
+    
+}
+
+@media all and (max-width:420px){
+    .seis{
+        height: 1135px;
+    }
+
+    /* seis1 interior */
+    .seis1 h2{
+        font-size: 4.8rem;
+    }
+    
+    .seis p{
+        padding-top: 3rem;
+        font-size: 2.061rem;
+    }
+
+    input {
+        font-size: 1.8rem;
+    }
+    
+    textarea{
+        font-size: 1.8rem;
+    }
+    
+    select {
+        font-size: 1.8rem;
+    }
+
+    #submit1{
+        font-size: 1.8rem;
+        max-width: 231px;
+        max-height: 63px;
+    }
+    
+    ::placeholder{
+        font-size: 1.8rem;
+    }
+}
+/* Fin de Media de Formulario de contacto */
+
+/* Media de Sobre Nosotros */
+
+@media all and (max-width: 1670px){
+    .siete{
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .siete1{
+        max-width: 1200px;
+        max-height: 600px;
+    }
+
+    .siete2{
+        width: 100%;
+        max-width: 945px;       
+    }
+}
+
+@media all and (max-width: 776px){
+    .siete{
+        height: 1700px;
+    }
+
+    .siete1{
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    .siete2{
+        width: 100%;
+        max-width: 945px;
+        max-height: 720px;
+    }
+    .img-mini{
+        max-height: 460px;
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 524px){
+    .siete{
+        height: 1800px;
+    }
+
+    .siete1{
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    .siete2{
+        width: 100%;
+        max-width: 945px;
+        max-height: 1000px;
+    }
+    .img-mini{
+        max-height: 690px;
+        justify-content: space-around;
+    }
+    .cajita{
+        margin-top: 0.5rem
+    }
+}
+
+@media all and (max-width: 524px){
+    .about-us{
+        height: 100%;
+        max-height: 200px;
+        justify-content: space-evenly   ;
+    }
+}
+
+@media all and (max-width: 294px){
+    .about-us h3{
+        font-size: 4.5rem;
+    }
+    
+    .about-us p{
+        font-size: 1.8rem;
+    }
+    
+    .cajita h5{
+        font-size: 2.2rem;
+    }
+}
+
+@media all and (max-width: 250px){
+    .about-us h3{
+        font-size: 3.5rem;
+    }
+    
+    .about-us p{
+        font-size: 1.5rem;
+    }
+    
+    .cajita h5{
+        font-size: 1.8rem;
+    }
+}
+
+/* Fin de Media de Sobre Nosotros */
+
+/* Media de banner final */
+
+@media all and (max-width: 866px){
+    .ocho{
+        height: 500px;
+    }
+    .ocho1{
+        width: 100%;
+        max-width: 1721px;
+        height: 100%;
+        max-height: none;
+        align-content: center;
+        justify-content: space-around; 
+        align-items: center;
+    }
+    .caja4{
+        height: 170px;
+        width: 20%;
+        max-width: 300px;
+        min-width: 170px;
+        margin-top: 2.1rem;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
+
+@media all and (max-width: 526px){
+    .ocho{
+        height: 750px;
+    }
+    .caja4 ul{
+        padding-top: 1.2rem;
+    }
+}
+
+@media all and (max-width: 356px){
+    .ocho{
+        height: 1000px;
+    }
+    .caja4 ul{
+        padding-top: 1rem;
+    }
+}
+
+@media all and (max-width: 150px){
+    
+    .caja4 h6{
+        font-size: 1.596rem;
+    }
+    
+    .caja4 ul li{
+        line-height: 1.5em;
+    }
+    
+    .caja4 ul li a{
+        font-size: 1.49rem;
+    }
+    .caja4 ul li{
+        font-size: 1.3rem;
+    }
+}
+
+/* Fin de media de banner final */
+
+/*Media de footer */
+
+@media all and (max-width: 400px){
+    .final p{
+        font-size: 180%;
+        text-indent: 3.5rem;
+    }
+}
+/****fin de todo****/
+
+
+
